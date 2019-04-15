@@ -1,0 +1,43 @@
+[BEGIN]
+[TARGET] was subject to a sophisticated, multi faceted attack on their accounts, assets, and identity. The attack began when the 
+adversary gained control of their [TELECOM ACCOUNT] over the phone. [BLUE] suspects this was done with public information rather 
+than information gained through malware or phishing. The adversary then used the access to enable call forwarding to another 
+phone, most likely a burner. This type of attack has started becoming more and more common as of January, 2018. Because the 
+phone was forwarded and [TARGET] was locked out of the account, the adversary was able to bypass 2FA on [EMAIL SITE 1] and 
+[EMAIL SITE 2]. Once access to both email accounts was compromised, the adversary changed passwords and used the email to gain 
+access to [BANKING SITE], [BANKING SITE], [TELECOM ACCOUNT], and others.
+
+[TARGET] was alerted to activity causing [BANKING ACCOUNT] to be overdrawn. This was belived to be the first attempt to steal 
+assets. Because of the nature of this attack and volume of attempted asset theft, [BLUEFOR] believes this attack was targeted 
+and not random. [TARGET] put a freeze on credit and all accounts, this action prevented further theft. [TARGET] recieved a phone 
+call from an individual claiming to be [BANKING INSTITUTION] security and "needed DOB and SSN" from [TARGET]. [TARGET] gave DOB 
+and SSN, then "felt uncomfortable, and told them so." [ADVERSARY] attempted to keep [TARGET] on the line, but [TARGET] hung up 
+the phone. [TARGET] then called [BANKING INSTITUTION] and asked to verify the identity of the caller. [BANKING INSTITUTION] 
+denied any involvement and could not ID caller. 
+
+With [TARGET] locked out of computer, email accounts, banking accounts, or phone accounts, [BLUE] arrived. After receiving 
+verbal report, [BLUE] found that accessing computer was trivial. [EMAIL SITE 1] was still logged in, although the adversary's 
+password was unknown. [BLUE] found email with IP of adversary, date and time of attack, and suspected location. With minimal 
+trouble, [BLUE] began account recovery. With access to [EMAIL SITE], [BLUE] began recovery of available accounts and instructed 
+[TARGET] on safe password management. [BLUE] called [EMAIL PROVIDER 2] with an attempt to recover account, but was told recovery 
+was impossible given circumstances. [BLUE] then called [TELECOM] and temporarily unsuspended old phone number, recovered [EMAIL 
+ACCOUNT], resuspended phone number, added note to file to disallow all call forwarding attempts, and assigned new number to 
+[TARGET]. Having gained access to computer, both email accounts, and phones, all other account retrieval was trivial. 
+
+
+What happened here:
+[BLUE] suspects information was gained through public or private tables, alongside [TARGET]'s poor password choice. Using 
+minimal information, the adversary was able to forward all calls and texts from both a landline and cell phone to themselves. 
+This allowed them to totally bypass all 2FA.
+
+In the future:
+Client was advised and walked through changing passwords and taught better password management. This, alongside the disabling of 
+call forwarding and alerts being placed on phone accounts should prevent any other attacks of this nature. 
+
+I think this shows a terrifying weakness of 2FA, something we've been accustomed to treating as the gold standard. 2FA 
+technology is progressing faster than the telecom industry can keep up, and it's showing in the prevalance of stolen SIM cards 
+and ID theft. It is this researchers opinion that 2FA needs to be of a nature other than SMS or phone call, and call forwarding 
+needs much more rigorous standards of authentication to enable. We are just starting to see the beginning of the havoc this type 
+of attack will bring.
+
+[END]
